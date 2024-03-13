@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:urban_culture/view/app_screens.dart';
 import 'package:urban_culture/view/home/home_page.dart';
+import 'package:urban_culture/view/streaks/streaks_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: AppScreens(),
     );
   }
 }
